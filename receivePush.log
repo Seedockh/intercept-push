@@ -1,0 +1,394 @@
+04-09 15:22:10.020 1793-4068/? I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ticketswap.ticketswap/com.ticketswap.android.ui.LauncherActivity bnds=[540,1230][793,1514]} from uid 10040
+
+    --------- beginning of main
+04-09 15:22:10.021 798-856/? E/ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+04-09 15:22:10.041 1793-2897/? I/ActivityManager: Start proc 12107:com.ticketswap.ticketswap/u0a240 for activity com.ticketswap.ticketswap/com.ticketswap.android.ui.LauncherActivity
+04-09 15:22:10.152 12107-12121/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:22:10.158 12107-12121/? D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+04-09 15:22:10.198 12107-12107/? I/CrashlyticsCore: Initializing Crashlytics 2.5.0.20
+04-09 15:22:10.221 12107-12107/? V/FA: Registered activity lifecycle callback
+04-09 15:22:10.255 12107-12148/? E/FA: GoogleService failed to initialize, status: 10, Missing google app id value from from string resources with name google_app_id.
+04-09 15:22:10.256 12107-12148/? I/FA: App measurement is starting up, version: 12780
+    To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+    To enable faster debug mode event logging run:
+      adb shell setprop debug.firebase.analytics.app com.ticketswap.ticketswap
+04-09 15:22:10.256 12107-12148/? D/FA: Debug-level message logging enabled
+04-09 15:22:10.258 12107-12148/? E/FA: Missing google_app_id. Firebase Analytics disabled. See https://goo.gl/NAOOOI
+04-09 15:22:10.262 12107-12148/? E/FA: Uploading is not possible. App measurement disabled
+04-09 15:22:10.266 12107-12107/? D/LogcatTool: User is already logged in, check if we can refresh the accessToken
+    facebookAccessToken: EAAFdbQl3E0cBAFbHaO9IRao3aZAHspUHnNYkQH8LD73R3ZAGo1WmPz5RbHjI4Gb2itCZBTUIlxXENGxKHoL7Xnc6JqUdNXPbzk08U7FTdZAiaB6S48BNEsEP3Jb3gPKxEVK8tITehNelYwiti8ZBmlBYbTHuz11yD174ceihWkrf7q72YXjx6lEZCyUJnZArMyV4ez1XKljZCQZDZD
+04-09 15:22:10.266 12107-12107/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:22:10.267 12107-12107/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:22:10.267 12107-12107/? W/com.facebook.a.g: activateApp events are being logged automatically. There's no need to call activateApp explicitly, this is safe to remove.
+04-09 15:22:10.278 12107-12107/? I/WebViewFactory: Loading com.android.chrome version 72.0.3626.121 (code 362612102)
+04-09 15:22:10.342 12107-12107/? I/cr_LibraryLoader: Time to load native libraries: 5 ms (timestamps 4841-4846)
+04-09 15:22:10.350 12107-12107/? I/chromium: [INFO:library_loader_hooks.cc(42)] Chromium logging enabled: level = 0, default verbosity = 0
+04-09 15:22:10.350 12107-12107/? I/cr_LibraryLoader: Expected native library version number "72.0.3626.121", actual native library version number "72.0.3626.121"
+04-09 15:22:10.377 12107-12107/? D/FirebaseApp: com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+    com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+04-09 15:22:10.396 12107-12107/? D/LogcatTool: Starting application
+04-09 15:22:10.416 12107-12107/? V/FA: onActivityCreated
+04-09 15:22:10.429 1793-4491/? I/ActivityManager: START u0 {cmp=com.ticketswap.ticketswap/com.ticketswap.android.ui.root.RootActivity (has extras)} from uid 10240
+04-09 15:22:10.466 12107-12136/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:22:10.469 12107-12136/? W/b: initStore should have been called before calling setUserID
+04-09 15:22:10.482 12107-12107/? V/FA: onActivityCreated
+04-09 15:22:10.495 12107-12148/? I/FA: Tag Manager is not found and thus will not be used
+04-09 15:22:10.495 12107-12148/? E/FA: Name must consist of letters, digits or _ (underscores). Type, name: event, Application Opened
+04-09 15:22:10.497 12107-12148/? E/FA: Invalid public event name. Event will not be logged (FE): Application Opened
+04-09 15:22:10.504 12107-12107/? D/b[e] - 151: Created DefaultLogger
+04-09 15:22:10.505 12107-12107/? D/b[a] - 79: Using provided auth provider
+04-09 15:22:10.507 12107-12107/? D/b[d] - 138: Created DefaultExecutors
+04-09 15:22:10.511 12107-12107/? D/b[c] - 124: Created DefaultSerializer
+04-09 15:22:10.513 12107-12107/? D/b[b] - 110: Created DefaultHttpProvider
+04-09 15:22:10.597 12107-12107/? D/LogcatTool: Activity Start
+    name: RootActivity
+04-09 15:22:10.606 773-1977/? I/MotoSensors: Sensorhub hal setDelay: 1 - 66
+    Sensorhub hal setdelay: 1 - 66
+    HubSensors::updateAccelRate 200
+    Sensorhub hal enable: 1 - 1
+    HubSensors::updateAccelRate 66
+04-09 15:22:10.608 12107-12148/? V/FA: Connecting to remote service
+04-09 15:22:10.611 12107-12107/? D/LogcatTool: GraphQL Operation: GetTermsAgreed
+04-09 15:22:10.612 12107-12148/? V/FA: Activity resumed, time: 1076500081
+04-09 15:22:10.612 12107-12107/? D/LogcatTool: GraphQL Operation: GetTermsAgreed
+04-09 15:22:10.620 12107-12124/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:22:10.627 12107-12189/? D/OpenGLRenderer: HWUI GL Pipeline
+04-09 15:22:10.635 12107-12107/? D/LogcatTool: GraphQL Operation: GetHome
+04-09 15:22:10.652 12107-12122/? E/m: {HttpStatus: 400, errorCode: 10, subErrorCode: -1, errorType: OAuthException, errorMessage: (#10) The access token was not obtained using single sign-on}
+04-09 15:22:10.657 12107-12189/? I/Adreno: QUALCOMM build                   : bb5b86c, I77d3059488
+    Build Date                       : 06/07/18
+    OpenGL ES Shader Compiler Version: EV031.22.00.01_06
+    Local Branch                     :
+    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.6.5.R1.08.01.00.312.086
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+04-09 15:22:10.660 12107-12189/? D/vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+04-09 15:22:10.668 812-812/? I/SFPerfTracer:      triggers: (rate: 1438:169643) (compose: 2:118) (post: 0:442) (render: 3:569) (11:1613788 frames) (12:1953114)
+04-09 15:22:10.669 812-812/? D/SFPerfTracer:        layers: (3:9) (StatusBar#0 (0xaf6e2000): 1:205683) (com.android.systemui.ImageWallpaper#0 (0xaf6f2000): 1:4241)* (Sprite#0 (0xaf67c000): 0:184)* (DimLayerController/Stack=0#0 (0xaf6db000): 0:7661)* (animation background stackId=1#0 (0xaf644000): 0:704)* (NavigationBar#0 (0xaf657000): 11:275) (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xaf6d1000): 1:38)* (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#1 (0xaf675000): 1:77)* (Splash Screen com.ticketswap.ticketswap#0 (0xaf617000): 2:26)
+04-09 15:22:10.670 12107-12189/? I/Adreno: PFP: 0x005ff087, ME: 0x005ff063
+04-09 15:22:10.678 12107-12189/? I/zygote: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+04-09 15:22:10.679 12107-12189/? I/OpenGLRenderer: Initialized EGL, version 1.4
+04-09 15:22:10.679 12107-12189/? D/OpenGLRenderer: Swap behavior 2
+04-09 15:22:10.696 12107-12189/? D/vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+04-09 15:22:10.697 12107-12189/? D/vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+04-09 15:22:10.741 12107-12107/? D/LogcatTool: There is a new accessToken
+    facebookAccessToken: EAAFdbQl3E0cBAFbHaO9IRao3aZAHspUHnNYkQH8LD73R3ZAGo1WmPz5RbHjI4Gb2itCZBTUIlxXENGxKHoL7Xnc6JqUdNXPbzk08U7FTdZAiaB6S48BNEsEP3Jb3gPKxEVK8tITehNelYwiti8ZBmlBYbTHuz11yD174ceihWkrf7q72YXjx6lEZCyUJnZArMyV4ez1XKljZCQZDZD
+04-09 15:22:10.747 1793-1817/? I/LaunchCheckinHandler: Displayed com.ticketswap.ticketswap/com.ticketswap.android.ui.root.RootActivity,wp,ca,289
+04-09 15:22:10.747 1793-1817/? I/ActivityManager: Displayed com.ticketswap.ticketswap/com.ticketswap.android.ui.root.RootActivity: +284ms (total +711ms)
+04-09 15:22:10.748 12107-12148/? D/FA: Connected to remote service
+04-09 15:22:10.750 12107-12148/? V/FA: Processing queued up service tasks: 1
+04-09 15:22:10.763 12107-12107/? D/e: AccessTokenChanged
+04-09 15:22:10.763 12107-12107/? D/LogcatTool: setUser: 2163734707036110
+04-09 15:22:10.959 12107-12136/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:22:10.993 12107-12186/? W/InstanceID: Instance ID SDK is deprecated, com.ticketswap.ticketswap should update to use Firebase Instance ID
+04-09 15:22:11.003 12107-12185/? D/LogcatTool: GraphQL Operation: AddDevice
+04-09 15:22:11.003 12107-12186/? D/LogcatTool: GraphQL Operation: AddDevice
+04-09 15:22:11.178 27666-11853/? I/PBSessionCacheImpl: Deleted sessionId[2695602145465] from persistence.
+04-09 15:22:11.181 1793-2417/? I/WifiService: getWifiEnabledState uid=10065
+04-09 15:22:11.184 27666-27703/? W/SearchServiceCore: Abort, client detached.
+04-09 15:22:11.185 27666-27703/? I/StreamController: cleanUpControllerScope(nowcards-15-402948de-61d0)
+04-09 15:22:11.255 12107-12186/? D/LogcatTool: Added device: cHuY40V0EpY
+04-09 15:22:11.255 12107-12185/? D/LogcatTool: Added device: cHuY40V0EpY
+04-09 15:22:11.550 12107-12191/? D/LogcatTool: GraphQL Operation: GetCheckout
+04-09 15:22:11.628 12107-12107/? W/StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+04-09 15:22:13.723 812-900/? I/SFPerfTracer:      triggers: (rate: 0:40) (4150575 sw vsyncs) (0 skipped) (113:3945244 vsyncs) (115:8405190)
+04-09 15:22:14.514 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4349645, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=457, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=277, SEQNUM=175344, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791873, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:22:15.753 12107-12148/? V/FA: Inactivity, disconnecting from the service
+04-09 15:22:21.746 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1076511220 mSleepTimeMs=806593922 mIdleTimeMs=-806587366 mTxTimeMs[]=[0, 0, 371, 123, 536] mRxTimeMs=11055 mEnergyUsed=0}
+04-09 15:22:25.461 12107-12136/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:22:51.220 1793-2897/? I/ActivityManager: Killing 11564:android.process.acore/u0a9 (adj 906): empty for 1800s
+04-09 15:22:51.226 1793-1812/? W/zygote: kill(-11564, 9) failed: No such process
+04-09 15:22:51.239 1793-1812/? I/chatty: uid=1000(system) ActivityManager identical 1 line
+04-09 15:22:51.251 1793-1812/? W/zygote: kill(-11564, 9) failed: No such process
+04-09 15:22:51.251 1793-1812/? I/zygote: Successfully killed process cgroup uid 10009 pid 11564 in 25ms
+04-09 15:22:53.654 10267-12214/? D/JobProxy26: Schedule one-off jobInfo success, request{id=4794, tag=ScribeFlushJob, transient=false}, start 00:01:00, end 00:06:00 (from now), reschedule count 0
+04-09 15:23:03.640 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1076553113 mSleepTimeMs=806611705 mIdleTimeMs=-806593759 mTxTimeMs[]=[0, 0, 4, 694, 504] mRxTimeMs=22745 mEnergyUsed=0}
+04-09 15:23:04.117 1793-1802/? I/zygote: Background concurrent copying GC freed 64487(3MB) AllocSpace objects, 43(1564KB) LOS objects, 42% free, 25MB/44MB, paused 185us total 349.844ms
+04-09 15:23:14.675 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4351018, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=1525, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=280, SEQNUM=175349, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791838, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:23:14.817 812-812/? I/SFPerfTracer:      triggers: (rate: 1438:169643) (compose: 2:118) (post: 0:442) (render: 3:569) (1:1613867 frames) (2:1953215)
+04-09 15:23:14.817 812-812/? D/SFPerfTracer:        layers: (3:10) (StatusBar#0 (0xaf6e2000): 2:205695) (com.android.systemui.ImageWallpaper#0 (0xaf6f2000): 0:4241)* (Sprite#0 (0xaf67c000): 0:184)* (DimLayerController/Stack=0#0 (0xaf6db000): 0:7661)* (animation background stackId=1#0 (0xaf644000): 0:704)* (NavigationBar#0 (0xaf657000): 0:355) (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xaf6d1000): 0:38)- (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#1 (0xaf675000): 0:77)- (Splash Screen com.ticketswap.ticketswap#0 (0xaf617000): 0:37)- (com.ticketswap.ticketswap/com.ticketswap.android.ui.root.RootActivity#0 (0xaf679000): 0:73)
+04-09 15:23:22.733 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1076572207 mSleepTimeMs=806619882 mIdleTimeMs=-806611589 mTxTimeMs[]=[0, 0, 17, 274, 47] mRxTimeMs=10463 mEnergyUsed=0}
+04-09 15:23:53.671 10267-12219/? D/PlatformJobService: Run job, request{id=4794, tag=ScribeFlushJob, transient=false}, waited 00:01:00, start 00:01:00, end 00:06:00
+04-09 15:23:53.726 10267-12219/? I/JobExecutor: Executing request{id=4794, tag=ScribeFlushJob, transient=false}, context PlatformJobService
+04-09 15:23:53.734 10267-12221/? I/JobExecutor: Finished job{id=4794, finished=true, result=SUCCESS, canceled=false, periodic=false, class=p, tag=ScribeFlushJob}
+04-09 15:23:53.736 10267-12219/? D/PlatformJobService: Finished job, request{id=4794, tag=ScribeFlushJob, transient=false} SUCCESS
+04-09 15:24:04.413 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1076613886 mSleepTimeMs=806649743 mIdleTimeMs=-806619768 mTxTimeMs[]=[0, 0, 0, 304, 278] mRxTimeMs=11122 mEnergyUsed=0}
+04-09 15:24:14.836 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4350865, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=4119, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=282, SEQNUM=175354, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791825, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:24:21.131 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1076630605 mSleepTimeMs=806655133 mIdleTimeMs=-806649692 mTxTimeMs[]=[0, 0, 1, 261, 173] mRxTimeMs=10843 mEnergyUsed=0}
+04-09 15:24:56.759 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1076666233 mSleepTimeMs=806675131 mIdleTimeMs=-806655023 mTxTimeMs[]=[0, 0, 0, 382, 58] mRxTimeMs=15079 mEnergyUsed=0}
+04-09 15:25:14.996 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4351933, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=0, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=282, SEQNUM=175358, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791806, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:25:17.965 786-786/? D/QTI PowerHAL: JDG: 91
+04-09 15:25:20.576 812-900/? I/SFPerfTracer:      triggers: (rate: 0:40) (4150575 sw vsyncs) (0 skipped) (44:3945291 vsyncs) (46:8405301)
+04-09 15:25:26.813 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1076696287 mSleepTimeMs=806693969 mIdleTimeMs=-806674985 mTxTimeMs[]=[0, 0, 0, 267, 172] mRxTimeMs=10631 mEnergyUsed=0}
+04-09 15:25:29.577 1793-2897/? I/ActivityManager: START u0 {flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10064
+04-09 15:25:29.578 798-856/? E/ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+04-09 15:25:29.580 2216-2216/? E/BufferItemConsumer: [unnamed-2216-1508] Failed to release buffer: Unknown error -1 (1)
+04-09 15:25:29.582 773-773/? I/MotoSensors: Sensorhub hal enable: 1 - 0
+04-09 15:25:29.585 12107-12239/? V/FA: Recording user engagement, ms: 198979
+    Connecting to remote service
+04-09 15:25:29.587 12107-12239/? V/FA: Activity paused, time: 1076699058
+04-09 15:25:29.590 12107-12239/? E/FA: Missing google_app_id. Firebase Analytics disabled. See https://goo.gl/NAOOOI
+04-09 15:25:29.599 12107-12239/? D/FA: Connected to remote service
+04-09 15:25:29.599 12107-12239/? V/FA: Processing queued up service tasks: 1
+04-09 15:25:29.615 2216-2216/? E/BufferItemConsumer: [unnamed-2216-1509] Failed to release buffer: Unknown error -1 (1)
+04-09 15:25:29.628 12107-12107/? D/LogcatTool: Activity Stop
+    name: RootActivity
+04-09 15:25:29.688 1793-1817/? I/LaunchCheckinHandler: Displayed com.android.systemui/.recents.RecentsActivity,wp,wa,111
+04-09 15:25:29.883 812-812/? I/SFPerfTracer:      triggers: (rate: 1438:169643) (compose: 2:118) (post: 0:442) (render: 3:569) (9:1613934 frames) (10:1953322)
+04-09 15:25:29.883 812-812/? D/SFPerfTracer:        layers: (5:9) (StatusBar#0 (0xaf6e2000): 0:205720) (com.android.systemui.ImageWallpaper#0 (0xaf6f2000): 1:4242) (Sprite#0 (0xaf67c000): 0:184)* (DimLayerController/Stack=0#0 (0xaf6db000): 0:7661)* (animation background stackId=1#0 (0xaf644000): 0:704)* (NavigationBar#0 (0xaf657000): 10:375) (com.ticketswap.ticketswap/com.ticketswap.android.ui.root.RootActivity#0 (0xaf679000): 10:128) (com.android.systemui/com.android.systemui.recents.RecentsActivity#0 (0xaf6d1000): 6:10) (thumbnail anim#0 (0xaf617000): 10:11)*
+04-09 15:25:30.053 1793-16979/? I/OpenGLRenderer: Initialized EGL, version 1.4
+04-09 15:25:30.054 1793-16979/? D/OpenGLRenderer: Swap behavior 2
+04-09 15:25:30.347 786-786/? D/QTI PowerHAL: JDG: 1449
+04-09 15:25:30.640 1793-2896/? I/ActivityManager: Killing 11548:com.google.android.partnersetup/u0a35 (adj 906): empty for 1960s
+04-09 15:25:30.640 1793-1812/? W/zygote: kill(-11548, 9) failed: No such process
+04-09 15:25:30.642 1793-2896/? I/ActivityManager: Killing 12107:com.ticketswap.ticketswap/u0a240 (adj 900): remove task
+04-09 15:25:30.646 1793-2417/? I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.CustomizationPanelLauncher} from uid 10064
+04-09 15:25:30.655 1793-2417/? I/ActivityManager: moveHomeStack, setupComplete:true
+04-09 15:25:30.653 1793-1812/? I/chatty: uid=1000(system) ActivityManager identical 1 line
+04-09 15:25:30.666 1793-1812/? W/zygote: kill(-11548, 9) failed: No such process
+04-09 15:25:30.666 1793-1812/? I/zygote: Successfully killed process cgroup uid 10035 pid 11548 in 25ms
+04-09 15:25:30.666 1793-1812/? W/zygote: kill(-12107, 9) failed: No such process
+04-09 15:25:30.677 22587-22587/? D/Launcher.Utilities: Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+04-09 15:25:30.677 1793-6966/? I/WindowManager: WIN DEATH: Window{b0bd352 u0 com.ticketswap.ticketswap/com.ticketswap.android.ui.root.RootActivity}
+04-09 15:25:30.681 1793-1812/? W/zygote: kill(-12107, 9) failed: No such process
+04-09 15:25:30.691 1793-1817/? W/ActivityManager: setHasOverlayUi called on unknown pid: 12107
+04-09 15:25:30.696 1793-1812/? I/chatty: uid=1000(system) ActivityManager identical 1 line
+04-09 15:25:30.710 1793-1812/? W/zygote: kill(-12107, 9) failed: No such process
+04-09 15:25:30.710 27666-27703/? W/SessionLifecycleManager: Handover failed. Creating new session controller.
+04-09 15:25:30.710 812-812/? D/SurfaceFlinger: duplicate layer name: changing com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher to com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#1
+04-09 15:25:30.711 1793-1793/? I/NotificationService: Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10109
+04-09 15:25:30.715 27666-11820/? W/ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+04-09 15:25:30.716 1793-6966/? I/WifiService: getWifiEnabledState uid=10065
+04-09 15:25:30.726 1793-1812/? W/zygote: kill(-12107, 9) failed: No such process
+04-09 15:25:30.727 1793-6966/? I/WifiService: getWifiEnabledState uid=10065
+04-09 15:25:30.741 1793-1812/? W/zygote: kill(-12107, 9) failed: No such process
+04-09 15:25:30.742 1793-1812/? I/zygote: Successfully killed process cgroup uid 10240 pid 12107 in 75ms
+04-09 15:25:30.748 27666-27703/? I/StreamController: registerScope: nowcards-15-402948de-61d0
+04-09 15:25:30.763 1793-1817/? I/LaunchCheckinHandler: Displayed com.android.launcher3/.CustomizationPanelLauncher,wp,wa,117
+04-09 15:25:30.848 2216-17519/? I/zygote: Explicit concurrent copying GC freed 25863(1103KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 7MB/14MB, paused 177us total 146.928ms
+04-09 15:25:31.254 22587-22610/? W/OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+04-09 15:25:31.821 812-900/? I/SFPerfTracer:      triggers: (rate: 0:40) (4150575 sw vsyncs) (0 skipped) (36:3945397 vsyncs) (38:8405415)
+04-09 15:25:43.960 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1076713434 mSleepTimeMs=806696268 mIdleTimeMs=-806693931 mTxTimeMs[]=[0, 0, 0, 255, 366] mRxTimeMs=14190 mEnergyUsed=0}
+04-09 15:26:00.166 812-812/? I/SFPerfTracer:      triggers: (rate: 1438:169643) (compose: 2:118) (post: 0:442) (render: 3:569) (2:1614017 frames) (3:1953422)
+04-09 15:26:00.166 812-812/? D/SFPerfTracer:        layers: (4:11) (StatusBar#0 (0xaf6e2000): 3:205727) (com.android.systemui.ImageWallpaper#0 (0xaf6f2000): 0:4242) (Sprite#0 (0xaf67c000): 0:184)* (DimLayerController/Stack=0#0 (0xaf6db000): 0:7661)* (animation background stackId=1#0 (0xaf644000): 0:704)* (NavigationBar#0 (0xaf657000): 0:388) (com.ticketswap.ticketswap/com.ticketswap.android.ui.root.RootActivity#0 (0xaf679000): 0:140)- (com.android.systemui/com.android.systemui.recents.RecentsActivity#0 (0xaf6d1000): 0:52)- (thumbnail anim#0 (0xaf617000): 0:23)- (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xaf617000): 0:38)* (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#1 (0xaf675000): 0:14)
+04-09 15:26:15.155 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4351933, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=285, SEQNUM=175363, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791713, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:26:43.960 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1076773433 mSleepTimeMs=806738725 mIdleTimeMs=-806695995 mTxTimeMs[]=[0, 0, 2, 414, 31] mRxTimeMs=16821 mEnergyUsed=0}
+04-09 15:27:15.316 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4351933, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=287, SEQNUM=175366, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791696, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:28:03.799 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1076853273 mSleepTimeMs=806805502 mIdleTimeMs=-806738425 mTxTimeMs[]=[0, 0, 2, 276, 140] mRxTimeMs=12345 mEnergyUsed=0}
+04-09 15:28:15.475 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4351933, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=0, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=287, SEQNUM=175369, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791693, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:29:04.625 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1076914099 mSleepTimeMs=806853690 mIdleTimeMs=-806805207 mTxTimeMs[]=[0, 0, 4, 280, 38] mRxTimeMs=12022 mEnergyUsed=0}
+04-09 15:29:15.635 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4351933, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=287, SEQNUM=175372, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791692, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:30:09.913 9237-9237/? I/GCM: Message from 745476177629
+04-09 15:30:09.938 1793-4068/? I/ActivityManager: Start proc 12264:com.google.process.gapps/u0a30 for content provider com.google.android.gsf/.subscribedfeeds.SubscribedFeedsProvider
+04-09 15:30:10.068 12264-12264/? I/GoogleHttpClient: GMS http client unavailable, use old client
+04-09 15:30:10.181 1793-1809/? I/ActivityManager: Start proc 12280:com.google.android.gm/u0a87 for service com.google.android.gm/.provider.MailSyncAdapterService
+04-09 15:30:10.416 12280-12280/? D/ActivityThread: Loading provider com.google.android.gm.sapi: com.google.android.gm.sapi.SapiUiProvider
+04-09 15:30:10.463 12280-12280/? W/PrimesInit: Primes instant initialization
+04-09 15:30:10.466 12280-12311/? W/Primes: background initialization
+04-09 15:30:10.507 12280-12280/? W/GAV2: Thread[main,5,main]: Need to call initialize() and be in fallback mode to start dispatch.
+04-09 15:30:10.511 12280-12311/? I/PrimesTesting: GserviceFlagsSupplier.get()
+04-09 15:30:10.966 12280-12280/? E/yvd: Sync is not initialized yet
+04-09 15:30:11.099 12280-12344/? I/zygote: The ClassLoaderContext is a special shared library.
+04-09 15:30:11.102 12280-12344/? I/zygote: The ClassLoaderContext is a special shared library.
+04-09 15:30:11.131 12280-12344/? V/NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 284 native methods...
+04-09 15:30:11.164 12280-12344/? D/NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+04-09 15:30:11.168 12280-12344/? I/ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+04-09 15:30:11.176 27780-27780/? W/ChimeraUtils: Non Chimera context
+    Non Chimera context
+04-09 15:30:12.500 12280-12280/? W/wdq: Failed to find local clusters.
+04-09 15:30:12.681 12280-12360/? W/wsb: Attempted to read unclipped body before it was fetched for messageId: msg-f:1630343379789932253
+04-09 15:30:12.727 12280-12360/? D/OpenGLRenderer: HWUI GL Pipeline
+04-09 15:30:12.774 12280-12360/? W/wsb: Attempted to read unclipped body before it was fetched for messageId: msg-f:1630343379789932253
+04-09 15:30:12.866 1793-2063/? I/ActivityManager: Start proc 12363:android.process.acore/u0a9 for content provider com.android.providers.contacts/.ContactsProvider2
+04-09 15:30:12.991 12363-12363/? I/ContactsPerf: VoicemailContentProvider.onCreate start
+04-09 15:30:12.995 12363-12363/? I/ContactsPerf: VoicemailContentProvider.onCreate finish
+04-09 15:30:13.034 12363-12387/? D/ContactsDatabaseHelper: WAL enabled for contacts2.db: true
+04-09 15:30:13.109 12363-12387/? I/ContactLocale: AddressBook Labels [[fr_FR]]: […, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, …, А, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Й, Ј, К, Л, Љ, М, Н, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, Џ, Ш, Щ, Ю, Я, …, א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, …, ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, …, ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, …, ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, …, あ, か, さ, た, な, は, ま, や, ら, わ, #, …]
+04-09 15:30:13.137 12363-12387/? D/ContactsDatabaseHelper: WAL enabled for profile.db: false
+04-09 15:30:13.218 1793-1802/? I/zygote: NativeAlloc concurrent copying GC freed 57442(3MB) AllocSpace objects, 29(1932KB) LOS objects, 42% free, 26MB/46MB, paused 327us total 356.861ms
+04-09 15:30:15.313 12280-12294/? I/zygote: Waiting for a blocking GC ProfileSaver
+04-09 15:30:15.413 12280-12294/? I/zygote: WaitForGcToComplete blocked ProfileSaver on AddRemoveAppImageSpace for 99.668ms
+04-09 15:30:15.795 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4351323, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=1373, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=287, SEQNUM=175374, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791665, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:30:18.676 812-900/? I/SFPerfTracer:      triggers: (rate: 0:40) (4150575 sw vsyncs) (0 skipped) (0:3945417 vsyncs) (2:8405516)
+04-09 15:30:22.520 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1076991994 mSleepTimeMs=806916234 mIdleTimeMs=-806853388 mTxTimeMs[]=[0, 0, 77, 366, 107] mRxTimeMs=14498 mEnergyUsed=0}
+04-09 15:30:49.761 773-1977/? E/MotoSensors: Proximity covered 1
+04-09 15:30:49.762 792-2006/? V/MotSpeakerHelperProximity: updated mCurProximityState: NEAR (3.000000)
+    ThreadLoop event mProximityState = NEAR, previous FAR
+04-09 15:30:49.846 773-1977/? E/MotoSensors: Proximity uncovered
+04-09 15:30:49.847 792-2006/? V/MotSpeakerHelperProximity: updated mCurProximityState: FAR (100.000000)
+    ThreadLoop event mProximityState = FAR, previous NEAR
+04-09 15:30:49.914 2216-2216/? D/StatusBar: disable<e i a s b h r c s q >
+04-09 15:30:49.961 2216-2216/? D/StatusBar: disable<e i a s b h r c s q >
+04-09 15:30:49.986 786-786/? D/QTI PowerHAL: JDG: 1301
+04-09 15:30:50.579 812-812/? I/SFPerfTracer:      triggers: (rate: 1438:169649) (compose: 2:118) (post: 0:442) (render: 3:569) (30:1614078 frames) (31:1953535)
+04-09 15:30:50.579 812-812/? D/SFPerfTracer:        layers: (4:8) (StatusBar#0 (0xaf6e2000): 30:205814) (com.android.systemui.ImageWallpaper#0 (0xaf6f2000): 0:4242) (Sprite#0 (0xaf67c000): 0:184)* (DimLayerController/Stack=0#0 (0xaf6db000): 0:7661)* (animation background stackId=1#0 (0xaf644000): 0:704)* (NavigationBar#0 (0xaf657000): 0:388) (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xaf617000): 0:38)* (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#1 (0xaf675000): 0:14)
+04-09 15:30:51.481 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1077020954 mSleepTimeMs=806933813 mIdleTimeMs=-806916116 mTxTimeMs[]=[0, 0, 0, 291, 97] mRxTimeMs=10876 mEnergyUsed=0}
+04-09 15:30:51.794 786-786/? D/QTI PowerHAL: JDG: 544
+04-09 15:30:52.799 786-786/? D/QTI PowerHAL: JDG: 1605
+04-09 15:30:53.614 812-900/? I/SFPerfTracer:      triggers: (rate: 0:40) (4150575 sw vsyncs) (0 skipped) (25:3945510 vsyncs) (27:8405631)
+04-09 15:30:53.834 786-786/? D/QTI PowerHAL: JDG: 423
+04-09 15:30:54.521 812-812/? I/SFPerfTracer:      triggers: (rate: 1438:169651) (compose: 2:118) (post: 0:442) (render: 3:569) (0:1614171 frames) (1:1953635)
+04-09 15:30:54.521 812-812/? D/SFPerfTracer:        layers: (4:8) (StatusBar#0 (0xaf6e2000): 0:205910) (com.android.systemui.ImageWallpaper#0 (0xaf6f2000): 0:4242) (Sprite#0 (0xaf67c000): 0:184)* (DimLayerController/Stack=0#0 (0xaf6db000): 0:7661)* (animation background stackId=1#0 (0xaf644000): 0:704)* (NavigationBar#0 (0xaf657000): 0:388) (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xaf617000): 0:38)* (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#1 (0xaf675000): 0:14)
+04-09 15:30:54.827 786-786/? D/QTI PowerHAL: JDG: 913
+04-09 15:30:54.845 2216-2216/? W/StatusBar: removeNotification for unknown key: 0|com.google.android.gm|0|gig:1992106157:^sq_ig_i_personal|10087
+04-09 15:30:54.850 2216-2216/? W/StatusBar: removeNotification for unknown key: 0|com.google.android.gm|-885952520|gig:1992106157:^sq_ig_i_personal|10087
+04-09 15:30:55.841 9237-9237/? I/GCM: Message from 745476177629
+04-09 15:30:56.037 773-1977/? E/MotoSensors: Proximity covered 1
+04-09 15:30:56.038 792-2006/? V/MotSpeakerHelperProximity: updated mCurProximityState: NEAR (3.000000)
+    ThreadLoop event mProximityState = NEAR, previous FAR
+04-09 15:30:56.354 12280-12280/? W/wdq: Already started: wdq@3ee8962
+04-09 15:31:06.333 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1077035807 mSleepTimeMs=806936956 mIdleTimeMs=-806933773 mTxTimeMs[]=[0, 0, 5, 368, 132] mRxTimeMs=11164 mEnergyUsed=0}
+04-09 15:31:07.247 773-1977/? E/MotoSensors: Proximity uncovered
+04-09 15:31:07.248 792-2006/? V/MotSpeakerHelperProximity: updated mCurProximityState: FAR (100.000000)
+    ThreadLoop event mProximityState = FAR, previous NEAR
+04-09 15:31:10.842 12280-12280/? W/wdq: Already started: wdq@3ee8962
+04-09 15:31:15.957 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4351628, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=290, SEQNUM=175380, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791594, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:31:41.289 27780-27787/? I/zygote: Background concurrent copying GC freed 129342(6MB) AllocSpace objects, 4(208KB) LOS objects, 50% free, 10MB/21MB, paused 166us total 166.533ms
+04-09 15:31:42.128 9237-3663/? I/Icing: Indexing com.google.android.gm-internal.3p:EmailMessage from com.google.android.gm
+04-09 15:31:42.217 9237-3663/? I/Icing: Indexing done com.google.android.gm-internal.3p:EmailMessage
+04-09 15:31:43.215 9237-16975/? I/Icing: Indexing com.google.android.gm-internal.3p:EmailMessage from com.google.android.gm
+04-09 15:31:43.221 9237-16975/? I/Icing: Indexing done com.google.android.gm-internal.3p:EmailMessage
+04-09 15:32:06.161 786-786/? D/QTI PowerHAL: JDG: 1683
+04-09 15:32:06.230 2216-2216/? D/StatusBar: disable<e i a s b h r c s q >
+04-09 15:32:16.117 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4351628, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=290, SEQNUM=175381, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791593, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:32:21.552 812-900/? I/SFPerfTracer:      triggers: (rate: 0:40) (4150575 sw vsyncs) (0 skipped) (0:3945588 vsyncs) (2:8405733)
+04-09 15:33:16.277 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4351628, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=0, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=290, SEQNUM=175382, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791593, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:34:16.437 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4351628, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=152, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=290, SEQNUM=175383, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791593, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:35:00.006 1793-1812/? W/zygote: kill(-11719, 9) failed: No such process
+04-09 15:35:00.021 1793-1812/? I/chatty: uid=1000(system) ActivityManager identical 1 line
+04-09 15:35:00.036 1793-1812/? W/zygote: kill(-11719, 9) failed: No such process
+04-09 15:35:00.036 1793-1812/? I/zygote: Successfully killed process cgroup uid 10014 pid 11719 in 30ms
+04-09 15:35:00.037 1793-1812/? W/zygote: kill(-11705, 9) failed: No such process
+04-09 15:35:00.037 1793-1812/? I/zygote: Successfully killed process cgroup uid 1000 pid 11705 in 0ms
+04-09 15:35:06.731 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1077276205 mSleepTimeMs=807159255 mIdleTimeMs=-806936233 mTxTimeMs[]=[0, 0, 0, 213, 99] mRxTimeMs=17065 mEnergyUsed=0}
+04-09 15:35:16.597 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4350865, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=2899, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=292, SEQNUM=175387, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791582, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:35:21.721 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1077291195 mSleepTimeMs=807162956 mIdleTimeMs=-807159206 mTxTimeMs[]=[0, 0, 0, 319, 296] mRxTimeMs=10624 mEnergyUsed=0}
+04-09 15:35:41.276 812-812/? I/SFPerfTracer:      triggers: (rate: 1438:169654) (compose: 2:118) (post: 0:442) (render: 3:569) (0:1614224 frames) (1:1953735)
+04-09 15:35:41.276 812-812/? D/SFPerfTracer:        layers: (4:8) (StatusBar#0 (0xaf6e2000): 0:205987) (com.android.systemui.ImageWallpaper#0 (0xaf6f2000): 0:4242) (Sprite#0 (0xaf67c000): 0:184)* (DimLayerController/Stack=0#0 (0xaf6db000): 0:7661)* (animation background stackId=1#0 (0xaf644000): 0:704)* (NavigationBar#0 (0xaf657000): 0:388) (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xaf617000): 0:38)* (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#1 (0xaf675000): 0:14)
+04-09 15:36:16.757 1793-1976/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4351628, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=0, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=295, SEQNUM=175389, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Full, POWER_SUPPLY_CHARGE_COUNTER=2791578, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+04-09 15:36:55.793 1793-1810/? I/ActivityManager: Start proc 12487:com.ticketswap.ticketswap/u0a240 for broadcast com.ticketswap.ticketswap/com.google.firebase.iid.FirebaseInstanceIdReceiver
+04-09 15:36:55.898 9237-16975/? I/EventLogChimeraService: Aggregate from 1554815152847 (log), 1554815152847 (data)
+04-09 15:36:55.921 12487-12502/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:36:55.958 12487-12502/? D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+04-09 15:36:56.043 12487-12487/? I/CrashlyticsCore: Initializing Crashlytics 2.5.0.20
+04-09 15:36:56.114 12487-12487/? V/FA: Registered activity lifecycle callback
+04-09 15:36:56.178 12487-12535/? E/FA: GoogleService failed to initialize, status: 10, Missing google app id value from from string resources with name google_app_id.
+04-09 15:36:56.179 12487-12535/? I/FA: App measurement is starting up, version: 12780
+    To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+    To enable faster debug mode event logging run:
+      adb shell setprop debug.firebase.analytics.app com.ticketswap.ticketswap
+04-09 15:36:56.180 12487-12535/? D/FA: Debug-level message logging enabled
+04-09 15:36:56.184 12487-12535/? E/FA: Missing google_app_id. Firebase Analytics disabled. See https://goo.gl/NAOOOI
+04-09 15:36:56.188 12487-12535/? E/FA: Uploading is not possible. App measurement disabled
+04-09 15:36:56.216 12487-12487/? D/LogcatTool: User is already logged in, check if we can refresh the accessToken
+    facebookAccessToken: EAAFdbQl3E0cBAFbHaO9IRao3aZAHspUHnNYkQH8LD73R3ZAGo1WmPz5RbHjI4Gb2itCZBTUIlxXENGxKHoL7Xnc6JqUdNXPbzk08U7FTdZAiaB6S48BNEsEP3Jb3gPKxEVK8tITehNelYwiti8ZBmlBYbTHuz11yD174ceihWkrf7q72YXjx6lEZCyUJnZArMyV4ez1XKljZCQZDZD
+04-09 15:36:56.216 12487-12487/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:36:56.217 12487-12487/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:36:56.217 12487-12487/? W/com.facebook.a.g: activateApp events are being logged automatically. There's no need to call activateApp explicitly, this is safe to remove.
+04-09 15:36:56.235 12487-12487/? I/WebViewFactory: Loading com.android.chrome version 72.0.3626.121 (code 362612102)
+04-09 15:36:56.313 12487-12487/? I/cr_LibraryLoader: Time to load native libraries: 5 ms (timestamps 812-817)
+04-09 15:36:56.324 12487-12487/? I/chromium: [INFO:library_loader_hooks.cc(42)] Chromium logging enabled: level = 0, default verbosity = 0
+04-09 15:36:56.324 12487-12487/? I/cr_LibraryLoader: Expected native library version number "72.0.3626.121", actual native library version number "72.0.3626.121"
+04-09 15:36:56.362 12487-12487/? D/FirebaseApp: com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+04-09 15:36:56.363 12487-12487/? D/FirebaseApp: com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+04-09 15:36:56.383 12487-12487/? D/LogcatTool: Starting application
+04-09 15:36:56.434 1793-4491/? W/BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+04-09 15:36:56.437 1793-1810/? W/BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+04-09 15:36:56.441 12487-12518/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:36:56.459 12487-12505/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:36:56.471 12487-12564/? D/LogcatTool: Show push notification
+    title: Hellfest 2019 (3 Days Pass)
+    body: Arnaud vend 2 billets pour €225.75 par billet
+    url: /listing/hellfest-2019/3209937/17f4890a9e
+    type: wantedMatch
+04-09 15:36:56.472 12487-12564/? D/LogcatTool: With data
+    url: ticketswap://ad/3209937/17f4890a9e
+    hash: 17f4890a9e
+    path: /listing/hellfest-2019/3209937/17f4890a9e
+    type: wantedMatch
+    title: Hellfest 2019 (3 Days Pass)
+    listing_global_id: TGlzdGluZzozMjA5OTM3
+    message: Arnaud vend 2 billets pour €225.75 par billet
+04-09 15:36:56.478 12487-12535/? I/FA: Tag Manager is not found and thus will not be used
+04-09 15:36:56.478 12487-12535/? E/FA: Name must consist of letters, digits or _ (underscores). Type, name: event, Push Notification Received
+04-09 15:36:56.482 12487-12535/? E/FA: Invalid public event name. Event will not be logged (FE): Push Notification Received
+04-09 15:36:56.533 12487-12503/? E/m: {HttpStatus: 400, errorCode: 10, subErrorCode: -1, errorType: OAuthException, errorMessage: (#10) The access token was not obtained using single sign-on}
+04-09 15:36:56.537 12487-12487/? D/LogcatTool: There is a new accessToken
+    facebookAccessToken: EAAFdbQl3E0cBAFbHaO9IRao3aZAHspUHnNYkQH8LD73R3ZAGo1WmPz5RbHjI4Gb2itCZBTUIlxXENGxKHoL7Xnc6JqUdNXPbzk08U7FTdZAiaB6S48BNEsEP3Jb3gPKxEVK8tITehNelYwiti8ZBmlBYbTHuz11yD174ceihWkrf7q72YXjx6lEZCyUJnZArMyV4ez1XKljZCQZDZD
+04-09 15:36:56.538 12487-12487/? D/e: AccessTokenChanged
+04-09 15:36:56.538 12487-12487/? D/LogcatTool: setUser: 2163734707036110
+04-09 15:36:56.557 2216-2216/? D/StatusBar: disable<e i a s b h r c s q >
+04-09 15:36:56.568 2216-2216/? D/StatusBar: DozeServiceHost: fireNotificationHeadsUp
+04-09 15:37:00.019 812-900/? I/SFPerfTracer:      triggers: (rate: 0:40) (4150575 sw vsyncs) (0 skipped) (46:3945638 vsyncs) (48:8405848)
+04-09 15:37:00.891 12487-12500/? I/zygote: Waiting for a blocking GC ProfileSaver
+04-09 15:37:00.913 12487-12500/? I/zygote: WaitForGcToComplete blocked ProfileSaver on AddRemoveAppImageSpace for 22.007ms
+04-09 15:37:02.531 2216-2216/? D/StatusBar: disable<e i a s b h r c s q >
+04-09 15:37:07.053 1793-1813/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=1077396527 mSleepTimeMs=807253094 mIdleTimeMs=-807162559 mTxTimeMs[]=[0, 0, 0, 316, 375] mRxTimeMs=14106 mEnergyUsed=0}
+04-09 15:37:09.598 2216-2216/? I/chatty: uid=10064(com.android.systemui) identical 1 line
+04-09 15:37:09.648 2216-2216/? D/StatusBar: disable<e i a s b h r c s q >
+04-09 15:37:09.724 786-786/? D/QTI PowerHAL: JDG: 869
+04-09 15:37:10.385 812-812/? I/SFPerfTracer:      triggers: (rate: 1438:169658) (compose: 2:118) (post: 0:442) (render: 3:569) (37:1614332 frames) (38:1953870)
+04-09 15:37:10.385 812-812/? D/SFPerfTracer:        layers: (4:8) (StatusBar#0 (0xaf6e2000): 38:206102) (com.android.systemui.ImageWallpaper#0 (0xaf6f2000): 0:4242) (Sprite#0 (0xaf67c000): 0:184)* (DimLayerController/Stack=0#0 (0xaf6db000): 0:7661)* (animation background stackId=1#0 (0xaf644000): 0:704)* (NavigationBar#0 (0xaf657000): 0:388) (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xaf617000): 0:38)* (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#1 (0xaf675000): 0:32)
+04-09 15:37:10.891 1793-4491/? I/ActivityManager: START u0 {cmp=com.ticketswap.ticketswap/com.ticketswap.android.ui.event.listing.ListingActivity (has extras)} from uid 10240
+04-09 15:37:10.892 798-856/? E/ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+04-09 15:37:10.893 1793-4491/? W/ActivityManager: startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { cmp=com.ticketswap.ticketswap/com.ticketswap.android.ui.event.listing.ListingActivity (has extras) }
+04-09 15:37:10.903 1793-2068/? E/ActivityManager: applyOptionsLocked: Unknown animationType=0
+04-09 15:37:10.929 12487-12487/? V/FA: onActivityCreated
+04-09 15:37:10.936 12487-12518/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:37:10.961 12487-12535/? E/FA: Name must consist of letters, digits or _ (underscores). Type, name: event, Push Notification Tapped
+    Invalid public event name. Event will not be logged (FE): Push Notification Tapped
+04-09 15:37:10.971 12487-12535/? E/FA: Missing google_app_id. Firebase Analytics disabled. See https://goo.gl/NAOOOI
+04-09 15:37:10.974 12487-12535/? E/FA: Name must consist of letters, digits or _ (underscores). Type, name: event, Application Opened
+    Invalid public event name. Event will not be logged (FE): Application Opened
+04-09 15:37:10.991 12487-12487/? D/b[e] - 151: Created DefaultLogger
+04-09 15:37:10.993 12487-12487/? D/b[a] - 79: Using provided auth provider
+04-09 15:37:10.995 12487-12487/? D/b[d] - 138: Created DefaultExecutors
+04-09 15:37:11.000 12487-12487/? D/b[c] - 124: Created DefaultSerializer
+04-09 15:37:11.001 12487-12487/? D/b[b] - 110: Created DefaultHttpProvider
+04-09 15:37:11.065 12487-12487/? D/LogcatTool: Activity Start
+    name: ListingActivity
+04-09 15:37:11.074 773-773/? I/MotoSensors: Sensorhub hal setDelay: 1 - 66
+04-09 15:37:11.075 773-773/? I/MotoSensors: Sensorhub hal setdelay: 1 - 66
+    HubSensors::updateAccelRate 200
+    Sensorhub hal enable: 1 - 1
+    HubSensors::updateAccelRate 66
+04-09 15:37:11.077 12487-12487/? D/LogcatTool: GraphQL Operation: GetTermsAgreed
+04-09 15:37:11.078 12487-12535/? V/FA: Connecting to remote service
+04-09 15:37:11.082 12487-12535/? V/FA: Activity resumed, time: 1077400551
+04-09 15:37:11.097 12487-12590/? D/OpenGLRenderer: HWUI GL Pipeline
+04-09 15:37:11.104 12487-12487/? D/LogcatTool: GraphQL Operation: GetListing
+04-09 15:37:11.130 12487-12590/? I/Adreno: QUALCOMM build                   : bb5b86c, I77d3059488
+    Build Date                       : 06/07/18
+    OpenGL ES Shader Compiler Version: EV031.22.00.01_06
+    Local Branch                     :
+    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.6.5.R1.08.01.00.312.086
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+04-09 15:37:11.135 12487-12590/? D/vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+04-09 15:37:11.143 12487-12590/? I/Adreno: PFP: 0x005ff087, ME: 0x005ff063
+04-09 15:37:11.151 12487-12590/? I/zygote: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+04-09 15:37:11.152 12487-12590/? I/OpenGLRenderer: Initialized EGL, version 1.4
+04-09 15:37:11.153 12487-12590/? D/OpenGLRenderer: Swap behavior 2
+04-09 15:37:11.172 12487-12590/? D/vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+04-09 15:37:11.173 12487-12590/? D/vndksupport: Loading /vendor/lib/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+04-09 15:37:11.210 1793-1817/? I/LaunchCheckinHandler: Displayed com.ticketswap.ticketswap/com.ticketswap.android.ui.event.listing.ListingActivity,wp,ca,307
+04-09 15:37:11.211 1793-1817/? I/ActivityManager: Displayed com.ticketswap.ticketswap/com.ticketswap.android.ui.event.listing.ListingActivity: +302ms
+04-09 15:37:11.217 12487-12535/? D/FA: Connected to remote service
+04-09 15:37:11.219 12487-12535/? V/FA: Processing queued up service tasks: 1
+04-09 15:37:11.266 2216-2216/? D/StatusBar: disable<e i a s b h r c s q >
+04-09 15:37:11.361 12487-12487/? W/InputMethodManager: Ignoring onBind: cur seq=7057, given seq=7056
+04-09 15:37:11.363 12487-12487/? W/Glide: Load failed for null with size [0x0]
+    class com.bumptech.glide.load.engine.GlideException: Received null model
+04-09 15:37:11.392 2216-2216/? D/StatusBar: disable<e i a s b h r c s q >
+04-09 15:37:11.408 12487-12518/? D/com.facebook.i: getGraphApiVersion: v3.0
+04-09 15:37:11.545 12487-12588/? W/InstanceID: Instance ID SDK is deprecated, com.ticketswap.ticketswap should update to use Firebase Instance ID
+04-09 15:37:11.555 12487-12588/? D/LogcatTool: GraphQL Operation: AddDevice
+04-09 15:37:11.659 27666-12608/? I/PBSessionCacheImpl: Deleted sessionId[2695602145470] from persistence.
+04-09 15:37:11.663 1793-2417/? I/WifiService: getWifiEnabledState uid=10065
+04-09 15:37:11.665 27666-27703/? W/SearchServiceCore: Abort, client detached.
+04-09 15:37:11.666 27666-27703/? I/StreamController: cleanUpControllerScope(nowcards-15-402948de-61d0)
+04-09 15:37:11.734 12487-12535/? E/FA: Name must consist of letters, digits or _ (underscores). Type, name: event, Listing Viewed
+04-09 15:37:11.735 12487-12535/? E/FA: Invalid public event name. Event will not be logged (FE): Listing Viewed
+04-09 15:37:11.858 12487-12588/? D/LogcatTool: Added device: cHuY40V0EpY
+04-09 15:37:13.039 812-812/? I/SFPerfTracer:      triggers: (rate: 1438:169659) (compose: 2:118) (post: 0:442) (render: 3:569) (76:1614445 frames) (77:1953995)
+04-09 15:37:13.039 812-812/? D/SFPerfTracer:        layers: (3:10) (StatusBar#0 (0xaf6e2000): 0:206138) (com.android.systemui.ImageWallpaper#0 (0xaf6f2000): 0:4243)* (Sprite#0 (0xaf67c000): 0:184)* (DimLayerController/Stack=0#0 (0xaf6db000): 0:7661)* (animation background stackId=1#0 (0xaf644000): 0:706)* (NavigationBar#0 (0xaf657000): 77:479) (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#0 (0xaf617000): 0:40)- (com.android.launcher3/com.android.launcher3.CustomizationPanelLauncher#1 (0xaf675000): 0:34)- (Splash Screen com.ticketswap.ticketswap#0 (0xaf6d1000): 0:27)- (com.ticketswap.ticketswap/com.ticketswap.android.ui.event.listing.ListingActivity#0 (0xaf679000): 17:48)
